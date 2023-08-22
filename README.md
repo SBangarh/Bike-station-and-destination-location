@@ -1,5 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
+## This project was made possible because the the citybikes API, which can be found here: http://api.citybik.es/v2/
+
 ## Project/Goals
 - To apply and practice python, and relevent libraries, with environment that resembles the real world.
 - Practice pushing changes to github after every session or change as opposed to one big push at submission.
