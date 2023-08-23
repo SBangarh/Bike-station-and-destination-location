@@ -14,6 +14,13 @@
 1. Created the a remote repository (repo) on my github and cloned it to my local machine,
 2. Created my goals for this project in no particular order, 
 3. Did a initial run through of the project to determine a plan and identify areas where I may be strong or weak,
+4. Connected to the City Bikes API for Vancouver, BC
+5. Accessed relevent information from the JSON result and created a dictionary
+6. Put dictionary from above into a dataframe and initialized an empty dictionary
+7. Looped through the dataframe to create keys and a list of values
+8. Converted dictionary into a dataframe
+9. From the dataframe I created a list of lists for latitude and longitude pairs from the dataframe so that I could call the list in the yelp and foursquare notebook.
+10.
 
 
 ## Results
