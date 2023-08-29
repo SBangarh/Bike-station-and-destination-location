@@ -11,16 +11,23 @@
 - As always, have fun
 
 ## Process
+### Citybikes
 1. Created the a remote repository (repo) on my github and cloned it to my local machine,
 2. Created my goals for this project in no particular order, 
 3. Did a initial run through of the project to determine a plan and identify areas where I may be strong or weak,
-4. Connected to the City Bikes API for Vancouver, BC
-5. Accessed relevent information from the JSON result and created a dictionary
-6. Put dictionary from above into a dataframe and initialized an empty dictionary
-7. Looped through the dataframe to create keys and a list of values
-8. Converted dictionary into a dataframe
-9. From the dataframe I created a list of lists for latitude and longitude pairs from the dataframe so that I could call the list in the yelp and foursquare notebook.
-10.
+4. Connected to the City Bikes API for Vancouver, BC,
+5. Accessed relevent information from the JSON result and created a dictionary,
+6. Put dictionary from above into a dataframe and initialized an empty dictionary,
+7. Looped through the dataframe to create keys and a list of values,
+8. Converted dictionary into a dataframe,
+9. From the dataframe I created a list of lists for latitude and longitude pairs from the dataframe so that I could call the list in the yelp and foursquare notebook,
+### Yelp and Foursquare
+10. I created environment variables for my api keys to call and use,
+11. I made calls to the appropriate API's to get the data and load into a list,
+12. I save the collection of responses as a separate file for later use as credit/call limits were a concern for me,
+13. I looped through the list of data to get the data I wanted - sometimes I had to load it all with the intention of modifying the dataframe,
+14. I put my results into dataframes,
+
 
 
 ## Results
