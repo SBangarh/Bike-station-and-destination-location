@@ -40,6 +40,7 @@
 ## Challenges 
 - Connecting to the citybike api, seemed to be missing data initially. Results deviated from documentation
 - looping through the results from the API's, nested dictionaries were extremely difficult and part 2 took a week for me to do
+- had a bad habit of not commiting frequently and appropriately had VS Code crash on me, but luckily I copied and pasted my code in a separate file. what a nightmare...
 
 
 ## Future Goals
