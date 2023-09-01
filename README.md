@@ -30,6 +30,11 @@
 15. I joined the new df with the raw df, and proceeded to drop the irrelevant columns to get my final df
 16. I got the top 10 locations by rank for each df and then compared the df from Foursquare and Yelp for similarites,
 ### _Joining data from part 1 and 2_
+17. Imported relevent libraries and orginal df
+18. Joined df individually then together
+19. Checked for duplicates in combined data
+20. Performed a describe function to get an overlay of the data; saw I had some outliers and some 0's
+21. Created some visualizations of the combined data
 
 
 
