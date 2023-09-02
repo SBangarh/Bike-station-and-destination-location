@@ -35,6 +35,8 @@
 19. Checked for duplicates in combined data
 20. Performed a describe function to get an overlay of the data; saw I had some outliers and some 0's
 21. Created some visualizations of the combined data
+22. Loaded the data into a db and created tables for relevent df
+### _model building_
 
 
 
@@ -46,7 +48,14 @@
 - Connecting to the citybike api, seemed to be missing data initially. Results deviated from documentation
 - looping through the results from the API's, nested dictionaries were extremely difficult and part 2 took a week for me to do
 - had a bad habit of not commiting frequently and appropriately had VS Code crash on me, but luckily I copied and pasted my code in a separate file. what a nightmare...
+- connecting and building a database, I'm still trying to juggle WSL on Windows and some of the tools we use
+- building and using functions, I tried some for the database portion, but I was not able to identify parts of the project where I would do something multiple times. For this project, I found it easier to just code
+- 
 
 
 ## Future Goals
-(what would you do if you had more time?)
+- Define and use more functions,
+- I want to become more proficient with the syntax and Google less. Right now, I am Googling around 80% of the time,
+- SLOW DOWN, I need to really focus on small portion at a time and commmit them to Github
+- I would like to start building my own projects now, I feel like I may learn better that way
+- Long term: get a DS or DA job
