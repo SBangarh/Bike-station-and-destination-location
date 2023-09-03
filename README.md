@@ -37,12 +37,21 @@
 21. Created some visualizations of the combined data
 22. Loaded the data into a db and created tables for relevent df
 ### _model building_
-
+23. Decided to build two models - forward and backward selection
+24. Imported the data from the db I created
+25. I decided on the following questions: Do the restaurant characteristics(e.g., price) have an impact on the number of bikes in a location?
+26. Dropped irrelevent columns to my analysis and due to time constraints, I dropped NaN values from my analysis
+27. Built separate models which ended up having the same variables, but very different R2 values
 
 
 
 ## Results
 (fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+I found the City Bikes API quite comprehensive. The interesting comparison was between Foursquare and Yelp. Foursquare had 2429 raw results while Yelp had 3834 raw results from the API. Foursquare did have more features like total photos, while Yelp was pretty basic. The difference is results could be because Yelp is an older company, and thus has better reviewer base and trust as opposed to Foursquare. This was outlined in this [article](https://medium.com/similar-app-development/yelp-vs-foursquare-two-similar-platforms-with-a-completely-different-approach-8bd40ae895e2).
+
+The models did not yield anything interesting. My forward selection model resulted and adjusted R2 value of 57% when only total_ratings and distance was included. The backward selection model was indicated an even worse fit. The adjusted R2 value was 17% or less depending on the variables removed. I removed distance first price first evne though its p-value was less than 0.05, but it was the highest. This did not impact the adjusted R2 value, but the p value for rating did increase to 0.055. This was subsequently removed and, again, there was no change in the R2 value.
+
+Overall, I don't think there is any relation between restaurant features and the number of bikes. The results could heavily depend on the city in which the bike stations are in. For instance, the location's features like geography, weather, public transit infrastructure, cycling infrastructure and culture, and outdoor areas for cycling. Perhaps resaurants (dining and drinking establishments) were a poor point of interest.
 
 ## Challenges 
 - Connecting to the citybike api, seemed to be missing data initially. Results deviated from documentation
