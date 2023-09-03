@@ -54,7 +54,7 @@ I found the City Bikes API quite comprehensive. The interesting comparison was b
 
 The models did not yield anything interesting. My forward selection model resulted and adjusted R2 value of 57% when only total_ratings and distance was included. The backward selection model was indicated an even worse fit. The adjusted R2 value was 17% or less depending on the variables removed. I removed distance first price first evne though its p-value was less than 0.05, but it was the highest. This did not impact the adjusted R2 value, but the p value for rating did increase to 0.055. This was subsequently removed and, again, there was no change in the R2 value.
 
-Overall, I don't think there is any relation between restaurant features and the number of bikes. The results could heavily depend on the city in which the bike stations are in. For instance, the location's features like geography, weather, public transit infrastructure, cycling infrastructure and culture, and outdoor areas for cycling. Perhaps resaurants (dining and drinking establishments) were a poor point of interest.
+Overall, there was no indication of relation between restaurant features and the number of bikes. The results could heavily depend on the city in which the bike stations are in. For instance, the location's features like geography, weather, public transit infrastructure, cycling infrastructure and culture, and outdoor areas for cycling. Perhaps resaurants (dining and drinking establishments) were a poor point of interest to use as well.
 
 ## Challenges 
 - Connecting to the citybike api, seemed to be missing data initially. Results deviated from documentation
@@ -63,7 +63,7 @@ Overall, I don't think there is any relation between restaurant features and the
 - Connecting and building a database, I'm still trying to juggle WSL on Windows and some of the tools we use
 - Building and using functions, I tried some for the database portion, but I was not able to identify parts of the project where I would do something multiple times. For this project, I found it easier to just code; I definitely could have made some in the model building portion, but I could not wrap my head around all the moving parts unfortunately. I will have to practice more
 - This project was a big step up from the SQL project and the learning curve for the python course exponentially increased halfway through due to the amount of information and libraries available for python
-- I really struggled with wrting comments and explaining my process throughout the notebooks. It was a lot and didn't really know what I was doing compounded the issue. I'll have to read other peoples code to get a better understanding. 
+- I really struggled with wrting comments and explaining my process throughout the notebooks. It was a lot and didn't really know what I was doing compounded the issue. I'll have to read other peoples code to get a better understanding. Overall, this could have been a lot better, but it will come with experience and I just need to practice more.
 
 ## Future Goals
 - Define and use more functions,
